@@ -1,8 +1,12 @@
 # todo-app
 
-#Directory Layout
-const taskCompleted = function() {               // Mark a task as complete
-  const listItem = this.parentNode;              // We assign it for readability
-  completedTasksHolder.appendChild(listItem);  // Append the task list item to the #completed-tasks
-  bindTaskEvents(listItem, taskIncomplete);    // We bind it to the opposite holder
-};
+Directory Layout
+
+.
+├── /css/                # CSS folder
+│   └── /style.css       # Basic CSS stylesheet
+├── /js/                 # JavaScript folder
+│   └── /app.js          # Main app source
+├── .gitignore           # Version control omission file
+│── index.html           # Main entry point
+└── README.md            # This file
